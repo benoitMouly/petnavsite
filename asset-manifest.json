@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/petnavsite/static/css/main.e6c13ad2.css",
+    "main.js": "/petnavsite/static/js/main.48093bb0.js",
+    "static/js/453.cbc6ae7f.chunk.js": "/petnavsite/static/js/453.cbc6ae7f.chunk.js",
+    "static/media/petnav_map.png": "/petnavsite/static/media/petnav_map.3350bc9bd8adef2ce3c8.png",
+    "static/media/petnav_modal.png": "/petnavsite/static/media/petnav_modal.07cd85c1b4e6eccdd4b2.png",
+    "static/media/PetNav.png": "/petnavsite/static/media/PetNav.1b422f515c24482c4cf3.png",
+    "static/media/petnav_fav.png": "/petnavsite/static/media/petnav_fav.a8ec0799d297e592e43f.png",
+    "static/media/android_logo.png": "/petnavsite/static/media/android_logo.41b2b68085d66a1c6d07.png",
+    "index.html": "/petnavsite/index.html",
+    "main.e6c13ad2.css.map": "/petnavsite/static/css/main.e6c13ad2.css.map",
+    "main.48093bb0.js.map": "/petnavsite/static/js/main.48093bb0.js.map",
+    "453.cbc6ae7f.chunk.js.map": "/petnavsite/static/js/453.cbc6ae7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.48093bb0.js"
+  ]
+}
