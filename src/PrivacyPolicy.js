@@ -1,16 +1,24 @@
 import React from 'react';
+import { Typography, Paper } from '@mui/material';
 
 function PrivacyPolicy() {
   return (
-    <div>
-      <h1>Privacy Policy</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
+    <Paper style={{ padding: '20px' }}>
+      <Typography variant="h4" gutterBottom>
+        Privacy Policy
+      </Typography>
+      <Typography variant="body1">
+      L'utilisation de l'application PetNav : PetNav ne nécessite pas de créer un compte, ni de transmettre d'informations permettant de vous identifier.
+
+Dans le cas où vous l'avez autorisé, PetNav récupère votre position pour seule et unique donnée personnelle vous concernant. Celle-ci sert uniquement à afficher les lieux autour de vous et à calculer leur distance. Elle n'est jamais transmise à des tiers ni associée à un quelconque moyen permettant de vous identifier.
+
+L'application utilise AdMob (par Google) afin d'afficher des publicités qui permettent de la financer partiellement. AdMob et ses partenaires peuvent utiliser des cookies et certaines données personnelles à des fins d'analyse, de statistiques, et pour vous proposer les publicités les plus susceptibles de vous intéresser. Vous pouvez vous opposer, lors du premier lancement de l'application, et par la suite sur la page "Profile", à une telle utilisation de vos données personnelles. Cela ne désactivera pas les publicités mais les rendra simplement moins pertinentes.
+      <br/>
+      <br/>
+      Vous pouvez supprimer toutes vos données et toutes vos traces en allant sur l'onglet "Profil", et "Supprimer mon compte".
+      
+      </Typography>
+    </Paper>
   );
 }
 
