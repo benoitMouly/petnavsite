@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Page Not Found</title>
+  <meta http-equiv="refresh" content="0; URL=/" />
+  <script type="text/javascript">
+    var redirect = function () {
+      var pathname = window.location.pathname;
+      var search = window.location.search;
+      window.location.replace('/#' + pathname + search);
+    };
+    redirect();
+  </script>
+</head>
+<body>
+  <p>Page not found. Redirecting...</p>
+</body>
+</html>
